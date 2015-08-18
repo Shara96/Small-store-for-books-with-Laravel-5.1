@@ -35,3 +35,6 @@ Basic features:
 	Secure User and Admin login. 
 	Shopping cart.
 	API integration with PayPal Information on purchases in back end.
+
+
+
