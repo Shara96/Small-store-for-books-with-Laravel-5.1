@@ -27,7 +27,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
 
-Basic features:
+## Basic features:
 
     Basic features.
 	Easy adding and editing and deleting Books.
@@ -36,7 +36,7 @@ Basic features:
 	Shopping cart.
 	API integration with PayPal Information on purchases in back end.
 
-	![alt tag](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PNG_transparency_demonstration_1.png)
-	![promisechaind] (https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PNG_transparency_demonstration_1.png)
-	 image:: https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PNG_transparency_demonstration_1.png
-    ![Alt text](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PNG_transparency_demonstration_1.png "Optional title")
+	[![alt tag](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PNG_transparency_demonstration_1.png)]
+	[![promisechaind] (https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PNG_transparency_demonstration_1.png)]
+	 [image:: https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PNG_transparency_demonstration_1.png]
+    [![Alt text](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PNG_transparency_demonstration_1.png "Optional title")]
