@@ -25,3 +25,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+
+Basic features:
+
+    Basic features.
+	Easy adding and editing and deleting Books.
+	Pages for each Book.
+	Secure User and Admin login. 
+	Shopping cart.
+	API integration with PayPal Information on purchases in back end.
