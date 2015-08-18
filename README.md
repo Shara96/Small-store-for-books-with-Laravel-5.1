@@ -42,3 +42,24 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 Home:
 	![Home](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/Home.jpg)
 	
+Show Book:
+	![Home](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/Show%20Book.jpg)
+	
+Comment:
+	![Home](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/Komment.jpg)
+	
+Create a new Book:
+	![Home](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/Create%20a%20new%20Book.jpg)
+	
+Show Authors:
+	![Home](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/Authors.jpg)
+	
+Cart:
+	![Home](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/Cart.jpg)
+	
+PayPal Logs:
+	![Home](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PayPalLogs.jpg)
+	
+Login:
+	![Home](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/Login.jpg)
+	
