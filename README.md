@@ -36,5 +36,7 @@ Basic features:
 	Shopping cart.
 	API integration with PayPal Information on purchases in back end.
 
+	![alt tag](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/Home.jpg)
+	
 
 
