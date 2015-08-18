@@ -28,7 +28,7 @@ class HomeController extends Controller {
      * @return \Illuminate\View\View
      */
     public function showCategorieBooks($id) {
-        $books = Categorie::findOrFail($id)->books->all();
+        $books = Categorie::findOrFail($id)->books()->paginate(3);
 
 
         return view('home', compact('books'));
