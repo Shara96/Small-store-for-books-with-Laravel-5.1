@@ -5,6 +5,10 @@
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
 [![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
 [![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+[![solarized dualmode](https://github.com/altercation/solarized/raw/master/img/solarized-yinyang.png)]
+[![image tag](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PNG_transparency_demonstration_1.png)]
+	
+
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
 
@@ -24,7 +28,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ### License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 
 ## Basic features:
@@ -36,7 +40,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 	Shopping cart.
 	API integration with PayPal Information on purchases in back end.
 
+	[![solarized dualmode](https://github.com/altercation/solarized/raw/master/img/solarized-yinyang.png)]
 	[![alt tag](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PNG_transparency_demonstration_1.png)]
-	[![promisechaind] (https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PNG_transparency_demonstration_1.png)]
-	 [image:: https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PNG_transparency_demonstration_1.png]
-    [![Alt text](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PNG_transparency_demonstration_1.png "Optional title")]
+	
