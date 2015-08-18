@@ -5,8 +5,6 @@
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
 [![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
 [![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
-![solarized dualmode](https://github.com/altercation/solarized/raw/master/img/solarized-yinyang.png)
-![image tag](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PNG_transparency_demonstration_1.png)
 	
 
 
@@ -33,13 +31,14 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Basic features:
 
-*    Basic features.
+*   Basic features.
 *	Easy adding and editing and deleting Books.
 *	Pages for each Book.
 *	Secure User and Admin login. 
 *	Shopping cart.
 *	API integration with PayPal Information on purchases in back end.
 
-	[![solarized dualmode](https://github.com/altercation/solarized/raw/master/img/solarized-yinyang.png)]
-	[![alt tag](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/PNG_transparency_demonstration_1.png)]
+## Screenshots
+Home:
+	![Home](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/Home.jpg)
 	
