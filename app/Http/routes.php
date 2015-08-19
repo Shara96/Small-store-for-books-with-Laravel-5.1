@@ -7,6 +7,10 @@ Route::controllers([
 //Show Home
 Route::get('/', 'HomeController@index');
 
+//Show Search
+Route::post('/search', 'SearchController@search');
+
+
 //Categories
 Route::get('categorie/{id}', 'HomeController@showCategorieBooks');
 

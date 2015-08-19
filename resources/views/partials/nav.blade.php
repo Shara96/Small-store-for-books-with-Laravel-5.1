@@ -34,7 +34,7 @@
                     </ul>
                 </li>
                 <!--------------------------------------End------------------------------------->
-            {{----------------Navigation Bar With Dropdown Authors-----------------------------}}
+                {{----------------Navigation Bar With Dropdown Authors-----------------------------}}
                 @if(Auth::check() && Auth::isAdmin())
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">PayPal
@@ -44,9 +44,24 @@
                     </ul>
                 </li>
                 @endif
-             <!--------------------------------------End------------------------------------->
+                <!--------------------------------------End------------------------------------->
 
             </ul>
+            <!--------------------------------------Search------------------------------------->
+
+            <div class="col-sm-3 col-md-3">
+                {!! Form::open(['url'=>'/search','method'=>'POST','class'=>'navbar-form','role'=>'search']) !!}
+                <div class="input-group">
+                    {!! Form::text('search',null,['class'=>'form-control','placeholder'=>'Search']);!!}
+                    <div class="input-group-btn">
+                        {!! Form::button('<span class="glyphicon glyphicon-search"></span>',[
+                        'class'=>'btn btn-default',
+                        'type'=>'submit']) !!}
+                    </div>
+                </div>
+                {!! Form::close() !!}
+            </div>
+            <!--------------------------------------End-------------------------------------->
             <ul class="nav navbar-nav navbar-right">
                 @if(Auth::check())
                 <li><a href="#">{{Auth::user()->username }}</a></li>
@@ -54,7 +69,7 @@
                 @else <li><a href="/auth/login">Login</a></li>
                 @endif
                 <li>
-                         <a href="/carts"><span aria-hidden="true" class="glyphicon glyphicon-shopping-cart">{{Cart::count()}}</span> &nbsp;Cart</a>
+                    <a href="/carts"><span aria-hidden="true" class="glyphicon glyphicon-shopping-cart">{{Cart::count()}}</span> &nbsp;Cart</a>
 
                 </li>
             </ul>

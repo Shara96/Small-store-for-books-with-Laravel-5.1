@@ -37,6 +37,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 *	Secure User and Admin login. 
 *	Shopping cart.
 *	API integration with PayPal Information on purchases in back end.
+*	Search Books
 
 ## Screenshots
 Home:
@@ -62,4 +63,7 @@ PayPal Logs:
 	
 Login:
 	![Home](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/Login.jpg)
+	
+Search:
+	![Home](https://raw.githubusercontent.com/dzheyhan/Small-store-for-books-with-Laravel-5.1/master/public/images/GitHubImage/Search.jpg)
 	
