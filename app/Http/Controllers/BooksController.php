@@ -54,7 +54,7 @@ class BooksController extends Controller {
         $Book = Auth::user()->Books()->create($request->all());
         $Book->authors()->attach($this->scroller($request, $model = '\App\Author', $requestInput = 'authors', $tableRow = 'author_name'));
         $Book->categorie()->attach($this->scroller($request, $model = '\App\Categorie', $requestInput = 'categories', $tableRow = 'category'));
-        Flash::success('Book is create ');
+        Flash::success('The book is added');
         return redirect('/');
     }
 

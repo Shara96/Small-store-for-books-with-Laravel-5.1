@@ -38,6 +38,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 *	Shopping cart.
 *	API integration with PayPal Information on purchases in back end.
 *	Search bar for Books
+*	Star Rating System
 
 ## Screenshots
 Home:

@@ -6,10 +6,22 @@
 
     <div class="col-sm-6">
         <div class="content">
+        <div class="bookId" style="display: none;">{{$book->id}}</div>
             <!-- Product information for small screens -->
             <div class="main-imgs clearfix">
                 <a href="{{$book->largeImage_path}}" title="BeachFront Frog swimsuit: view 1"><img id="img1" src="/{{$book->largeImage_path}}" alt="BeachFront Frog swimsuit" class="main-img img-responsive"></a>
             </div>
+            <div class="new row"></div>
+                <div class="col-sm-2" id="RatingAddIcon">
+                  <div class="input-group-addon" id="click-prevent"></div>
+                  <div class="input-group-addon" id="addIcon">
+                  <img class="slide-image"  id="ok" src="/lib/images/Ok.png"   style="display: none">
+                  <img class="slide-image"  id="cancel"  src="/lib/images/Cancel.png" style="display: none">
+                  </div><div class="votes">{{$book->getCountRating()}}&nbsp;votes</div></div>
+
+
+            {!!Form::open(['id'=>'ratingForm'])!!}
+            {!!Form::close()!!}
         </div>
     </div> <!-- // end span6 -->
 
@@ -95,6 +107,13 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <strong>{{$messages->user->username}}</strong> <span class="text-muted">commented {{$messages->dateFormat()}}</span>
+                <span id="ratingFloat">
+                                    @if($book->getBookRating() && $messages->user->id!=1)
+                                    @for ($i=1; $i <= 5 ; $i++)
+                                     <span class="glyphicon glyphicon-star{{ ($i <= $book->getBookRating()) ? '' : '-empty'}}"></span>
+                                     @endfor
+                                     @endif
+                                </span>
             </div>
             <div class="panel-body">
                 {{$messages->message}}
@@ -119,6 +138,6 @@
         </div><!-- Status Upload  -->
     </div> <!-- //end span12 -->
 </div> <!-- //end row -->
-
+<script type="text/javascript" src="{{ URL::asset('lib/JavaScriptRaty.js') }}"></script>
 
 @stop

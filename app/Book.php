@@ -19,7 +19,7 @@ class Book extends Model {
     }
 
     /**
-     * many Books may have a many  "Category"
+     * many Books may have a many  "Category" (Relationships)
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
@@ -28,12 +28,20 @@ class Book extends Model {
     }
 
     /**
-     * An Book is owned by a user
+     * An Book is owned by a user (Relationships)
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function users() {
         return $this->belongsTo('App\User');
+    }
+
+    /**
+     * a user has a lot of Ratings (Relationships)
+     * @return mixed
+     */
+    public function ratings(){
+        return $this->hasMany('App\Rating');
     }
 
     /**
@@ -74,4 +82,13 @@ class Book extends Model {
         return implode(" ", $returnSmallDescription);
     }
 
+    public function getCountRating(){
+        $CountRating=$this->ratings()->count();
+        return $CountRating;
+    }
+
+    public function getBookRating(){
+        $bookRatingg=round($this->ratings()->avg('rating'));
+        return $bookRatingg;
+    }
 }

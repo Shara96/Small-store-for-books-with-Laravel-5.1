@@ -11,6 +11,10 @@
         <script type="text/javascript" src="{{ URL::asset('js/select2.min.js') }}"></script>
         <script type="text/javascript" src="{{ URL::asset('js/description.js') }}"></script>
 
+        <script type="text/javascript" src="{{ URL::asset('javascripts/labs.js') }}"></script>
+        <link rel="stylesheet" href="{{ URL::asset('lib/jquery.raty.css') }}" />
+        <script type="text/javascript" src="{{ URL::asset('lib/jquery.raty.js') }}"></script>
+
         <title>Books</title>
     </head>
     <body>

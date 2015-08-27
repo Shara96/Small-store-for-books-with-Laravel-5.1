@@ -46,6 +46,12 @@ Route::post('carts', 'CartController@store');
 Route::get('carts', 'CartController@index');
 Route::delete('carts/{id}', 'CartController@destroy');
 
+//Rating
+Route::get('rating/{id}', 'RatingController@show');
+Route::POST('rating', 'RatingController@store');
+
+
+
 
 
 

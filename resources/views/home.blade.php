@@ -10,21 +10,19 @@
             {{--<img src="http://placehold.it/320x150" alt=""> --}}
             <a href="/books/{{$book->id}}"><img src="/{{$book->smallImage_path}}" alt=""></a>
             <div class="caption">
-                <h4 class="pull-right">{{-- 24$ --}}</h4>
-                <div class="caption">
-                    <h5><a href="/books/{{$book->id}}">{{$book->book_title}}</a>
-                    </h5>
+                <h4 class="pull-right">&euro;{{$book->price}}</h4>
+
+                    <h4><a href="/books/{{$book->id}}">{{$book->book_title}}</a>
+                    </h4>
                     <p>{{$book->smallDescription($book->id)}}...</p>
-                </div>
+
             </div>
             <div class="ratings">
-                <p class="pull-right">15 reviews</p>
+                <p class="pull-right">{{$book->getCountRating()}}&nbsp;votes</p>
                 <p>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
+                    @for ($i=1; $i <= 5 ; $i++)
+                     <span class="glyphicon glyphicon-star{{ ($i <= $book->getBookRating()) ? '' : '-empty'}}"></span>
+                     @endfor
                 </p>
             </div>
         </div>
